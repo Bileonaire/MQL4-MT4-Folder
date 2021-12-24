@@ -1,0 +1,306 @@
+0	00:58:52.169	Tick-Value USDJPY,M15: uninit reason 7
+0	00:58:52.200	Custom indicator Tick-Value USDJPY,M15: removed
+3	00:58:52.200	cannot open file 'C:\Users\kioko\AppData\Roaming\MetaQuotes\Terminal\B9AB1781CD4361C9C32CAAC85492E650\MQL4\indicators\Custom\Tick-Value ENV-check.ex4' [2]
+0	00:58:56.843	Custom indicator Custom\Tick-Value USDJPY,M15: loaded successfully
+0	00:58:56.890	Tick-Value USDJPY,M15: initialized
+3	00:59:10.261	cannot open file 'C:\Users\kioko\AppData\Roaming\MetaQuotes\Terminal\B9AB1781CD4361C9C32CAAC85492E650\MQL4\indicators\Custom\Tick-Value ENV-check.ex4' [2]
+3	00:59:16.026	cannot open file 'C:\Users\kioko\AppData\Roaming\MetaQuotes\Terminal\B9AB1781CD4361C9C32CAAC85492E650\MQL4\indicators\Custom\Tick-Value ENV-check.ex4' [2]
+0	00:59:21.729	Compiling '!KillerBOT2'
+0	00:59:25.136	Compiling '!mastercheck'
+0	00:59:29.058	Compiling 'conditionalExecute'
+0	00:59:32.620	Compiling 'NewRemote'
+0	00:59:36.058	Compiling 'RemoteExecutor'
+0	00:59:38.776	Compiling 'tradeManager'
+0	00:59:42.573	Compiling 'Custom\Tick-Value ENV-check'
+0	00:59:46.785	Compiling '!TradeExecutor_1'
+0	00:59:50.413	Compiling '!TradeExecutor_v1'
+0	00:59:54.391	Tick-Value ENV-check AUDUSD,M15: uninit reason 2
+0	00:59:54.406	Custom indicator Tick-Value ENV-check AUDUSD,M15: removed
+0	00:59:54.438	Custom indicator Custom\Tick-Value ENV-check AUDUSD,M15: loaded successfully
+0	00:59:54.469	Tick-Value ENV-check AUDUSD,M15: initialized
+0	00:59:54.485	Tick-Value ENV-check AUDUSD,M15: uninit reason 2
+0	00:59:54.485	Custom indicator Tick-Value ENV-check AUDUSD,M15: removed
+0	00:59:54.516	Custom indicator Custom\Tick-Value ENV-check AUDUSD,M15: loaded successfully
+0	00:59:54.563	Tick-Value ENV-check AUDUSD,M15: initialized
+0	00:59:54.578	Tick-Value ENV-check AUDCAD,H1: uninit reason 2
+0	00:59:54.578	Custom indicator Tick-Value ENV-check AUDCAD,H1: removed
+0	00:59:54.610	Custom indicator Custom\Tick-Value ENV-check AUDCAD,H1: loaded successfully
+0	00:59:54.656	Tick-Value ENV-check AUDCAD,H1: initialized
+0	00:59:54.672	Tick-Value ENV-check USDCNH,H4: uninit reason 2
+0	00:59:54.672	Custom indicator Tick-Value ENV-check USDCNH,H4: removed
+0	00:59:54.703	Custom indicator Custom\Tick-Value ENV-check USDCNH,H4: loaded successfully
+0	00:59:54.735	Tick-Value ENV-check USDCNH,H4: initialized
+0	00:59:54.750	Tick-Value ENV-check USDCHF,M15: uninit reason 2
+0	00:59:54.750	Custom indicator Tick-Value ENV-check USDCHF,M15: removed
+0	00:59:54.781	Custom indicator Custom\Tick-Value ENV-check USDCHF,M15: loaded successfully
+0	00:59:54.828	Tick-Value ENV-check USDCHF,M15: initialized
+0	00:59:54.860	Tick-Value ENV-check CHFJPY,H1: uninit reason 2
+0	00:59:54.860	Custom indicator Tick-Value ENV-check CHFJPY,H1: removed
+0	00:59:54.891	Custom indicator Custom\Tick-Value ENV-check CHFJPY,H1: loaded successfully
+0	00:59:54.938	Tick-Value ENV-check CHFJPY,H1: initialized
+0	00:59:54.938	Tick-Value ENV-check AUDUSD,H4: uninit reason 2
+0	00:59:54.953	Custom indicator Tick-Value ENV-check AUDUSD,H4: removed
+0	00:59:54.969	Custom indicator Custom\Tick-Value ENV-check AUDUSD,H4: loaded successfully
+0	00:59:55.016	Tick-Value ENV-check AUDUSD,H4: initialized
+0	00:59:55.031	Tick-Value ENV-check CADJPY,Daily: uninit reason 2
+0	00:59:55.031	Custom indicator Tick-Value ENV-check CADJPY,Daily: removed
+0	00:59:55.063	Custom indicator Custom\Tick-Value ENV-check CADJPY,Daily: loaded successfully
+0	00:59:55.109	Tick-Value ENV-check CADJPY,Daily: initialized
+0	00:59:55.109	Tick-Value ENV-check CHFJPY,H1: uninit reason 2
+0	00:59:55.125	Custom indicator Tick-Value ENV-check CHFJPY,H1: removed
+0	00:59:55.141	Custom indicator Custom\Tick-Value ENV-check CHFJPY,H1: loaded successfully
+0	00:59:55.188	Tick-Value ENV-check CHFJPY,H1: initialized
+0	01:01:04.406	Custom indicator Custom\Tick-Value ENV-check USDJPY,M15: loaded successfully
+0	01:01:11.060	Tick-Value ENV-check USDJPY,M15: initialized
+0	01:01:48.138	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	01:01:57.481	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	01:02:41.303	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	01:02:44.040	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	01:02:47.868	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	01:02:50.054	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	01:02:51.490	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	01:02:54.097	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	01:02:58.429	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	01:03:04.230	!TradeExecutor_v1 USDJPY,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=2; Set_SL=1; sl=0.0; tp=0.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+1	01:03:04.386	!TradeExecutor_v1 USDJPY,M15: zero divide in '!TradeExecutor_v1.mq4' (119,53)
+3	01:03:04.386	!TradeExecutor_v1 USDJPY,M15: not initialized
+0	01:03:04.386	!TradeExecutor_v1 USDJPY,M15: uninit reason 8
+0	01:03:04.386	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	01:03:30.703	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	01:03:33.350	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	01:03:54.010	Tick-Value AUDUSD,H4: uninit reason 7
+0	01:03:54.041	Tick-Value ENV-check AUDUSD,H4: uninit reason 7
+0	01:03:54.041	Custom indicator Tick-Value AUDUSD,H4: removed
+0	01:03:54.041	Custom indicator Tick-Value ENV-check AUDUSD,H4: removed
+0	01:03:54.072	Custom indicator Custom\Tick-Value ENV-check AUDUSD,H4: loaded successfully
+0	01:03:54.104	Expert KillerBOT AUDUSD,H4: loaded successfully
+0	01:03:54.151	Tick-Value ENV-check AUDUSD,H4: initialized
+0	01:03:54.197	KillerBOT AUDUSD,H4: initialized
+0	01:04:27.092	KillerBOT AUDUSD,H4: uninit reason 1
+0	01:04:27.107	Expert KillerBOT AUDUSD,H4: removed
+0	01:04:41.306	Tick-Value ENV-check AUDUSD,H4: uninit reason 4
+0	01:04:41.314	Custom indicator Tick-Value ENV-check AUDUSD,H4: removed
+0	01:04:42.119	Tick-Value USDCHF,M15: uninit reason 4
+0	01:04:42.164	Tick-Value ENV-check USDCHF,M15: uninit reason 4
+0	01:04:42.164	Custom indicator Tick-Value USDCHF,M15: removed
+0	01:04:42.164	Custom indicator Tick-Value ENV-check USDCHF,M15: removed
+0	01:04:42.718	Tick-Value CHFJPY,H1: uninit reason 4
+0	01:04:42.731	Tick-Value ENV-check CHFJPY,H1: uninit reason 4
+0	01:04:42.733	Custom indicator Tick-Value CHFJPY,H1: removed
+0	01:04:42.733	Custom indicator Tick-Value ENV-check CHFJPY,H1: removed
+0	01:04:43.299	Tick-Value USDTRY,M30: uninit reason 4
+0	01:04:43.313	Custom indicator Tick-Value USDTRY,M30: removed
+0	01:04:43.860	Tick-Value USDJPY,M15: uninit reason 4
+0	01:04:43.860	Tick-Value ENV-check USDJPY,M15: uninit reason 4
+0	01:04:43.876	Custom indicator Tick-Value USDJPY,M15: removed
+0	01:04:43.876	Custom indicator Tick-Value ENV-check USDJPY,M15: removed
+0	01:04:44.224	Tick-Value AUDUSD,M15: uninit reason 4
+0	01:04:44.240	Tick-Value ENV-check AUDUSD,M15: uninit reason 4
+0	01:04:44.240	Tick-Value ENV-check AUDUSD,M15: uninit reason 4
+0	01:04:44.240	Custom indicator Tick-Value AUDUSD,M15: removed
+0	01:04:44.256	Custom indicator Tick-Value ENV-check AUDUSD,M15: removed
+0	01:04:44.256	Custom indicator Tick-Value ENV-check AUDUSD,M15: removed
+0	01:04:44.569	Tick-Value NZDCAD,H4: uninit reason 4
+0	01:04:44.598	Custom indicator Tick-Value NZDCAD,H4: removed
+0	01:04:44.878	Tick-Value AUDCAD,H1: uninit reason 4
+0	01:04:44.891	Tick-Value ENV-check AUDCAD,H1: uninit reason 4
+0	01:04:44.891	Custom indicator Tick-Value AUDCAD,H1: removed
+0	01:04:44.891	Custom indicator Tick-Value ENV-check AUDCAD,H1: removed
+0	01:04:45.148	Tick-Value USDCNH,H4: uninit reason 4
+0	01:04:45.162	Tick-Value ENV-check USDCNH,H4: uninit reason 4
+0	01:04:45.162	Custom indicator Tick-Value USDCNH,H4: removed
+0	01:04:45.178	Custom indicator Tick-Value ENV-check USDCNH,H4: removed
+0	01:04:45.428	Tick-Value CADJPY,Daily: uninit reason 4
+0	01:04:45.442	Tick-Value ENV-check CADJPY,Daily: uninit reason 4
+0	01:04:45.442	Tick-Value CADJPY,Daily: uninit reason 4
+0	01:04:45.458	Custom indicator Tick-Value CADJPY,Daily: removed
+0	01:04:45.473	Custom indicator Tick-Value ENV-check CADJPY,Daily: removed
+0	01:04:45.473	Custom indicator Tick-Value CADJPY,Daily: removed
+0	01:04:46.250	Tick-Value NZDJPY,H1: uninit reason 4
+0	01:04:46.258	Custom indicator Tick-Value NZDJPY,H1: removed
+0	01:04:47.039	Tick-Value GBPTRY,M15: uninit reason 4
+0	01:04:47.055	Custom indicator Tick-Value GBPTRY,M15: removed
+0	01:04:52.717	Tick-Value CHFJPY,H1: uninit reason 7
+0	01:04:52.733	Tick-Value ENV-check CHFJPY,H1: uninit reason 7
+0	01:04:52.733	Custom indicator Tick-Value CHFJPY,H1: removed
+0	01:04:52.749	Custom indicator Tick-Value ENV-check CHFJPY,H1: removed
+0	01:04:52.780	Custom indicator Custom\Tick-Value ENV-check CHFJPY,H1: loaded successfully
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   0	09:17:13.955	Custom indicator Custom\Tick-Value ENV-check CHFJPY,H1: loaded successfully
+0	09:17:14.001	Tick-Value ENV-check CHFJPY,H1: initialized
+0	10:38:01.074	Compiling 'tradeManager'
+0	10:38:07.121	Script !TradeExecutor CHFJPY,H1: loaded successfully
+0	10:38:11.747	Script !TradeExecutor CHFJPY,H1: removed
+0	10:38:33.419	Script !TradeExecutor_v1 CHFJPY,H1: loaded successfully
+0	10:38:37.161	Script !TradeExecutor_v1 CHFJPY,H1: removed
+0	10:39:05.797	Script !TradeExecutor_v1 CHFJPY,H1: loaded successfully
+0	10:43:32.746	!TradeExecutor_v1 CHFJPY,H1 inputs: orderType=1; Account=100.0; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=2; Set_SL=1; sl=123.195; tp=124.0; execute_trade=1; send_signal=0; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	10:43:34.604	!TradeExecutor_v1 CHFJPY,H1: initialized
+2	10:43:35.245	!TradeExecutor_v1 CHFJPY,H1: open #39998828 buy 0.49 CHFJPY at 123.428 ok
+0	10:43:35.245	!TradeExecutor_v1 CHFJPY,H1: Error = no error
+2	10:43:35.789	!TradeExecutor_v1 CHFJPY,H1: modify #39998828 buy 0.49 CHFJPY at 123.428 sl: 123.195 tp: 124.000 ok
+0	10:43:46.730	!TradeExecutor_v1 CHFJPY,H1: uninit reason 0
+0	10:43:46.746	Script !TradeExecutor_v1 CHFJPY,H1: removed
+0	11:09:31.036	Tick-Value ENV-check CHFJPY,H1: uninit reason 3
+0	11:09:31.044	Tick-Value ENV-check EURUSD,H1: initialized
+0	11:09:40.923	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:09:54.068	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:10:03.454	Tick-Value ENV-check EURUSD,H1: uninit reason 3
+0	11:10:03.456	Tick-Value ENV-check CHFJPY,H1: initialized
+0	11:10:10.353	Tick-Value ENV-check CHFJPY,H1: uninit reason 3
+0	11:10:10.354	Tick-Value ENV-check EURUSD,H1: initialized
+0	11:10:20.917	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:10:42.768	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=2; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=66.0; execute_trade=1; send_signal=0; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:10:44.328	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:10:44.889	!TradeExecutor_v1 EURUSD,H1: open #40010365 sell 0.03 EURUSD at 1.12731 ok
+0	11:10:44.889	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:10:45.728	!TradeExecutor_v1 EURUSD,H1: modify #40010365 sell 0.03 EURUSD at 1.12731 sl: 1.13061 tp: 1.12071 ok
+0	11:11:06.961	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:11:06.978	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:16:36.593	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:17:34.748	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=3; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=1.128; Sl_Tp_Type=1; Set_SL=1; sl=25.0; tp=60.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:17:36.176	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:17:36.712	!TradeExecutor_v1 EURUSD,H1: open #40013197 buy stop 0.04 EURUSD at 1.12800 ok
+0	11:17:36.712	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:17:37.249	!TradeExecutor_v1 EURUSD,H1: modify #40013197 buy stop 0.04 EURUSD at 1.12800 sl: 1.12550 tp: 1.13400 ok
+0	11:17:50.163	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:17:50.218	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:22:12.533	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:22:22.290	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=55.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:22:24.003	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:22:24.498	!TradeExecutor_v1 EURUSD,H1: open #40015046 buy 0.02 EURUSD at 1.12705 ok
+0	11:22:24.498	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:22:25.041	!TradeExecutor_v1 EURUSD,H1: modify #40015046 buy 0.02 EURUSD at 1.12705 sl: 1.12155 tp: 1.13255 ok
+0	11:22:31.403	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:22:31.419	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:22:37.477	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:22:47.618	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=55.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:22:49.033	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:22:49.739	!TradeExecutor_v1 EURUSD,H1: open #40015130 buy 0.02 EURUSD at 1.12709 ok
+0	11:22:49.739	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:22:50.328	!TradeExecutor_v1 EURUSD,H1: modify #40015130 buy 0.02 EURUSD at 1.12709 sl: 1.12159 tp: 1.13259 ok
+0	11:26:50.287	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:26:50.305	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:28:37.356	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:28:55.013	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=2; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=44.0; tp=66.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:28:56.936	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:28:57.530	!TradeExecutor_v1 EURUSD,H1: open #40016657 sell 0.03 EURUSD at 1.12721 ok
+0	11:28:57.530	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:28:58.025	!TradeExecutor_v1 EURUSD,H1: modify #40016657 sell 0.03 EURUSD at 1.12721 sl: 1.13161 tp: 1.12061 ok
+0	11:29:06.765	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:29:06.785	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:29:55.499	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:30:07.141	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=22.0; tp=40.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:30:08.701	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:30:09.216	!TradeExecutor_v1 EURUSD,H1: open #40017576 buy 0.05 EURUSD at 1.12728 ok
+0	11:30:09.216	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:30:10.018	!TradeExecutor_v1 EURUSD,H1: modify #40017576 buy 0.05 EURUSD at 1.12728 sl: 1.12508 tp: 1.13128 ok
+0	11:30:18.125	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:30:18.148	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:30:51.488	Script !TradeExecutor_v1 EURUSD,H1: loaded successfully
+0	11:31:04.671	!TradeExecutor_v1 EURUSD,H1 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=44.0; tp=66.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	11:31:06.059	!TradeExecutor_v1 EURUSD,H1: initialized
+2	11:31:06.583	!TradeExecutor_v1 EURUSD,H1: open #40017802 buy 0.03 EURUSD at 1.12736 ok
+0	11:31:06.583	!TradeExecutor_v1 EURUSD,H1: Error = no error
+2	11:31:07.447	!TradeExecutor_v1 EURUSD,H1: modify #40017802 buy 0.03 EURUSD at 1.12736 sl: 1.12296 tp: 1.13396 ok
+0	11:31:34.685	!TradeExecutor_v1 EURUSD,H1: uninit reason 0
+0	11:31:34.703	Script !TradeExecutor_v1 EURUSD,H1: removed
+0	11:31:38.746	Tick-Value ENV-check EURUSD,H1: uninit reason 3
+0	11:31:38.749	Tick-Value ENV-check EURUSD,Monthly: initialized
+0	11:31:41.158	Tick-Value ENV-check EURUSD,Monthly: uninit reason 3
+0	11:31:41.159	Tick-Value ENV-check EURUSD,Weekly: initialized
+0	11:32:55.060	Tick-Value ENV-check EURUSD,Weekly: uninit reason 3
+0	11:32:55.061	Tick-Value ENV-check EURUSD,M15: initialized
+0	11:33:04.588	Tick-Value ENV-check EURUSD,M15: uninit reason 3
+0	11:33:04.589	Tick-Value ENV-check CHFJPY,M15: initialized
+0	13:01:57.055	Script !TradeExecutor_v1 CHFJPY,M15: loaded successfully
+0	13:02:08.131	!TradeExecutor_v1 CHFJPY,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=20.0; tp=50.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	13:02:09.756	!TradeExecutor_v1 CHFJPY,M15: initialized
+2	13:02:10.584	!TradeExecutor_v1 CHFJPY,M15: open #40048731 buy 0.06 CHFJPY at 123.654 ok
+0	13:02:10.584	!TradeExecutor_v1 CHFJPY,M15: Error = no error
+2	13:02:11.246	!TradeExecutor_v1 CHFJPY,M15: modify #40048731 buy 0.06 CHFJPY at 123.654 sl: 123.454 tp: 124.154 ok
+0	13:02:18.315	!TradeExecutor_v1 CHFJPY,M15: uninit reason 0
+0	13:02:18.325	Script !TradeExecutor_v1 CHFJPY,M15: removed
+0	13:05:47.983	Script !TradeExecutor_v1 CHFJPY,M15: loaded successfully
+0	13:05:56.093	!TradeExecutor_v1 CHFJPY,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=20.0; tp=44.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	13:05:57.434	!TradeExecutor_v1 CHFJPY,M15: initialized
+2	13:05:57.786	!TradeExecutor_v1 CHFJPY,M15: open #40049925 buy 0.06 CHFJPY at 123.703 ok
+0	13:05:57.786	!TradeExecutor_v1 CHFJPY,M15: Error = no error
+2	13:05:58.152	!TradeExecutor_v1 CHFJPY,M15: modify #40049925 buy 0.06 CHFJPY at 123.703 sl: 123.503 tp: 124.143 ok
+0	13:06:04.592	!TradeExecutor_v1 CHFJPY,M15: uninit reason 0
+0	13:06:04.602	Script !TradeExecutor_v1 CHFJPY,M15: removed
+0	13:11:11.802	Script !TradeExecutor_v1 CHFJPY,M15: loaded successfully
+0	13:11:19.476	Script !TradeExecutor_v1 CHFJPY,M15: removed
+0	13:11:23.198	Script !TradeExecutor_v1 CHFJPY,M15: loaded successfully
+0	13:11:41.020	!TradeExecutor_v1 CHFJPY,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=67.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	13:11:42.221	!TradeExecutor_v1 CHFJPY,M15: initialized
+2	13:11:42.623	!TradeExecutor_v1 CHFJPY,M15: open #40051551 buy 0.04 CHFJPY at 123.688 ok
+0	13:11:42.623	!TradeExecutor_v1 CHFJPY,M15: Error = no error
+2	13:11:43.017	!TradeExecutor_v1 CHFJPY,M15: modify #40051551 buy 0.04 CHFJPY at 123.688 sl: 123.358 tp: 124.358 ok
+0	13:11:48.241	!TradeExecutor_v1 CHFJPY,M15: uninit reason 0
+0	13:11:48.249	Script !TradeExecutor_v1 CHFJPY,M15: removed
+0	13:30:42.996	Script !TradeExecutor_v1 CHFJPY,M15: loaded successfully
+0	13:30:57.258	!TradeExecutor_v1 CHFJPY,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=34.0; tp=67.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/kmh2OEz6/; 
+0	13:30:58.387	!TradeExecutor_v1 CHFJPY,M15: initialized
+2	13:30:58.805	!TradeExecutor_v1 CHFJPY,M15: open #40061458 buy 0.04 CHFJPY at 123.783 ok
+0	13:30:58.805	!TradeExecutor_v1 CHFJPY,M15: Error = no error
+2	13:30:59.194	!TradeExecutor_v1 CHFJPY,M15: modify #40061458 buy 0.04 CHFJPY at 123.783 sl: 123.443 tp: 124.453 ok
+0	13:31:03.907	!TradeExecutor_v1 CHFJPY,M15: uninit reason 0
+0	13:31:03.914	Script !TradeExecutor_v1 CHFJPY,M15: removed
+0	13:31:36.175	Tick-Value ENV-check CHFJPY,M15: uninit reason 3
+0	13:31:36.180	Tick-Value ENV-check USDJPY,M15: initialized
+0	13:31:46.740	Script !TradeExecutor_v1 USDJPY,M15: loaded successfully
+0	13:32:31.146	!TradeExecutor_v1 USDJPY,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=22.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/ZKsG73FU/; 
+0	13:32:32.547	!TradeExecutor_v1 USDJPY,M15: initialized
+2	13:32:33.245	!TradeExecutor_v1 USDJPY,M15: open #40061767 buy 0.06 USDJPY at 114.294 ok
+0	13:32:33.245	!TradeExecutor_v1 USDJPY,M15: Error = no error
+2	13:32:33.686	!TradeExecutor_v1 USDJPY,M15: modify #40061767 buy 0.06 USDJPY at 114.294 sl: 114.074 tp: 114.844 ok
+0	13:32:36.571	!TradeExecutor_v1 USDJPY,M15: uninit reason 0
+0	13:32:36.583	Script !TradeExecutor_v1 USDJPY,M15: removed
+0	13:33:04.603	Tick-Value ENV-check USDJPY,M15: uninit reason 3
+0	13:33:04.604	Tick-Value ENV-check CHFJPY,M15: initialized
+0	13:33:36.630	Tick-Value ENV-check CHFJPY,M15: uninit reason 3
+0	13:33:36.631	Tick-Value ENV-check USDJPY,M15: initialized
+0	13:34:37.709	Tick-Value ENV-check USDJPY,M15: uninit reason 3
+0	13:34:37.709	Tick-Value ENV-check USDJPY,Daily: initialized
+0	13:35:34.336	Tick-Value ENV-check USDJPY,Daily: uninit reason 3
+0	13:35:34.336	Tick-Value ENV-check USDJPY,M15: initialized
+0	14:02:08.846	Tick-Value ENV-check USDJPY,M15: uninit reason 3
+0	14:02:08.846	Tick-Value ENV-check USDCAD,M15: initialized
+0	14:52:36.374	Script !TradeExecutor_v1 USDCAD,M15: loaded successfully
+0	14:52:46.781	!TradeExecutor_v1 USDCAD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	14:52:48.078	!TradeExecutor_v1 USDCAD,M15: initialized
+2	14:52:48.500	!TradeExecutor_v1 USDCAD,M15: open #40090829 buy 0.04 USDCAD at 1.29051 ok
+0	14:52:48.500	!TradeExecutor_v1 USDCAD,M15: Error = no error
+2	14:52:48.896	!TradeExecutor_v1 USDCAD,M15: modify #40090829 buy 0.04 USDCAD at 1.29051 sl: 1.28721 tp: 1.29601 ok
+0	14:52:53.612	!TradeExecutor_v1 USDCAD,M15: uninit reason 0
+0	14:52:53.622	Script !TradeExecutor_v1 USDCAD,M15: removed
+0	16:32:30.650	Tick-Value ENV-check USDCAD,M15: uninit reason 3
+0	16:32:30.676	Tick-Value ENV-check AUDUSD,M15: initialized
+0	16:32:35.887	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	16:33:30.503	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=30.0; tp=100.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/N8oHhAAv/; 
+0	16:33:31.755	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	16:33:32.149	!TradeExecutor_v1 AUDUSD,M15: open #40121048 buy 0.04 AUDUSD at 0.71761 ok
+0	16:33:32.149	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	16:33:32.542	!TradeExecutor_v1 AUDUSD,M15: modify #40121048 buy 0.04 AUDUSD at 0.71761 sl: 0.71461 tp: 0.72761 ok
+0	16:33:36.914	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	16:33:36.922	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	16:37:07.522	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	16:37:47.257	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=17.0; tp=43.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/NULmIbKH/; 
+0	16:37:48.641	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	16:37:49.031	!TradeExecutor_v1 AUDUSD,M15: open #40122947 buy 0.07 AUDUSD at 0.71778 ok
+0	16:37:49.031	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	16:37:49.427	!TradeExecutor_v1 AUDUSD,M15: modify #40122947 buy 0.07 AUDUSD at 0.71778 sl: 0.71608 tp: 0.72208 ok
+0	16:37:52.903	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	16:37:52.912	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	16:50:16.607	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	16:50:45.538	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=3; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.7204; Sl_Tp_Type=1; Set_SL=1; sl=20.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	16:50:48.271	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	16:50:48.649	!TradeExecutor_v1 AUDUSD,M15: open #40128769 buy stop 0.06 AUDUSD at 0.72040 ok
+0	16:50:48.649	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	16:50:49.092	!TradeExecutor_v1 AUDUSD,M15: modify #40128769 buy stop 0.06 AUDUSD at 0.72040 sl: 0.71840 tp: 0.72590 ok
+0	16:51:09.729	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	16:51:09.738	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	18:21:56.070	Tick-Value ENV-check AUDUSD,M15: uninit reason 3
+0	18:21:56.080	Tick-Value ENV-check USDCAD,M15: initialized
+0	18:22:08.129	Tick-Value ENV-check USDCAD,M15: uninit reason 3
+0	18:22:08.129	Tick-Value ENV-check AUDUSD,M15: initialized

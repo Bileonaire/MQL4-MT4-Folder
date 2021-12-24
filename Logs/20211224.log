@@ -1,0 +1,199 @@
+0	00:02:41.236	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:02:48.509	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:02:52.513	updatetrade AUDUSD,M15: uninit reason 1
+0	00:02:52.517	Expert updatetrade AUDUSD,M15: removed
+0	00:02:56.088	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	00:02:57.813	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	00:02:57.903	updatetrade AUDUSD,M15: initialized
+0	00:03:04.184	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:03:20.584	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=22.0; tp=44.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:03:22.041	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:03:22.480	!TradeExecutor_v1 AUDUSD,M15: open #40564737 buy 0.05 AUDUSD at 0.72472 ok
+0	00:03:22.480	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:03:22.869	!TradeExecutor_v1 AUDUSD,M15: modify #40564737 buy 0.05 AUDUSD at 0.72472 sl: 0.72252 tp: 0.72912 ok
+0	00:03:30.844	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:03:30.856	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:09:43.466	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:09:53.528	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=22.0; tp=33.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:09:55.784	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:09:56.283	!TradeExecutor_v1 AUDUSD,M15: open #40565447 buy 0.05 AUDUSD at 0.72459 ok
+0	00:09:56.283	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:09:56.766	!TradeExecutor_v1 AUDUSD,M15: modify #40565447 buy 0.05 AUDUSD at 0.72459 sl: 0.72239 tp: 0.72789 ok
+0	00:10:00.806	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:10:00.819	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:16:39.008	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:16:50.914	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=44.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:16:52.532	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:16:53.043	!TradeExecutor_v1 AUDUSD,M15: open #40566428 buy 0.03 AUDUSD at 0.72444 ok
+0	00:16:53.043	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:16:53.482	!TradeExecutor_v1 AUDUSD,M15: modify #40566428 buy 0.03 AUDUSD at 0.72444 sl: 0.72114 tp: 0.72884 ok
+0	00:16:57.277	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:16:57.293	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:18:37.636	updatetrade AUDUSD,M15: uninit reason 2
+0	00:18:37.639	Expert updatetrade AUDUSD,M15: removed
+0	00:18:37.664	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	00:18:37.705	updatetrade AUDUSD,M15: initialized
+0	00:18:39.920	updatetrade AUDUSD,M15: uninit reason 2
+0	00:18:39.924	Expert updatetrade AUDUSD,M15: removed
+0	00:18:39.953	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	00:18:39.988	updatetrade AUDUSD,M15: initialized
+0	00:18:48.361	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:18:58.759	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=2; Set_SL=1; sl=44.0; tp=66.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:19:01.003	!TradeExecutor_v1 AUDUSD,M15: initialized
+3	00:19:01.003	!TradeExecutor_v1 AUDUSD,M15: invalid lots amount for OrderSend function
+0	00:19:01.003	!TradeExecutor_v1 AUDUSD,M15: Error = invalid function parameter value
+0	00:19:04.873	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:19:04.893	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:19:48.072	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:20:10.254	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=99.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:20:12.049	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:20:12.744	!TradeExecutor_v1 AUDUSD,M15: open #40566814 buy 0.03 AUDUSD at 0.72449 ok
+0	00:20:12.744	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:20:13.155	!TradeExecutor_v1 AUDUSD,M15: modify #40566814 buy 0.03 AUDUSD at 0.72449 sl: 0.72119 tp: 0.73439 ok
+0	00:20:16.175	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:20:16.182	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:30:29.428	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:30:39.982	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=2; Set_SL=1; sl=55.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:30:41.575	!TradeExecutor_v1 AUDUSD,M15: initialized
+3	00:30:41.575	!TradeExecutor_v1 AUDUSD,M15: invalid lots amount for OrderSend function
+0	00:30:41.575	!TradeExecutor_v1 AUDUSD,M15: Error = invalid function parameter value
+0	00:30:41.575	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:30:41.585	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:30:46.789	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:31:00.841	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=44.0; tp=66.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:31:02.292	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:31:02.776	!TradeExecutor_v1 AUDUSD,M15: open #40567708 buy 0.03 AUDUSD at 0.72436 ok
+0	00:31:02.776	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:31:03.151	!TradeExecutor_v1 AUDUSD,M15: modify #40567708 buy 0.03 AUDUSD at 0.72436 sl: 0.71996 tp: 0.73096 ok
+0	00:31:23.573	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:31:23.581	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:32:41.544	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:32:52.428	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=22.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:32:53.929	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:32:54.372	!TradeExecutor_v1 AUDUSD,M15: open #40567768 buy 0.05 AUDUSD at 0.72439 ok
+0	00:32:54.372	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:32:54.753	!TradeExecutor_v1 AUDUSD,M15: modify #40567768 buy 0.05 AUDUSD at 0.72439 sl: 0.72219 tp: 0.72989 ok
+0	00:32:59.379	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:32:59.391	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:44:09.949	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:44:15.951	Compiling 'New\updatetrade'
+0	00:44:20.404	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:44:20.948	updatetrade AUDUSD,M15: uninit reason 2
+0	00:44:20.952	Expert updatetrade AUDUSD,M15: removed
+0	00:44:20.976	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	00:44:21.029	updatetrade AUDUSD,M15: initialized
+0	00:44:26.247	updatetrade AUDUSD,M15: uninit reason 1
+0	00:44:26.254	Expert updatetrade AUDUSD,M15: removed
+0	00:44:30.116	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	00:44:32.731	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	00:44:32.773	updatetrade AUDUSD,M15: initialized
+0	00:44:42.266	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	00:45:05.619	!TradeExecutor_v1 AUDUSD,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=44.0; tp=77.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:45:07.331	!TradeExecutor_v1 AUDUSD,M15: initialized
+2	00:45:07.739	!TradeExecutor_v1 AUDUSD,M15: open #40568931 buy 0.03 AUDUSD at 0.72427 ok
+0	00:45:07.739	!TradeExecutor_v1 AUDUSD,M15: Error = no error
+2	00:45:08.141	!TradeExecutor_v1 AUDUSD,M15: modify #40568931 buy 0.03 AUDUSD at 0.72427 sl: 0.71987 tp: 0.73197 ok
+0	00:45:12.432	!TradeExecutor_v1 AUDUSD,M15: uninit reason 0
+0	00:45:12.442	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	00:47:39.897	updatetrade AUDUSD,M15: uninit reason 2
+0	00:47:39.901	Expert updatetrade AUDUSD,M15: removed
+0	00:47:39.922	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	00:47:39.971	updatetrade AUDUSD,M15: initialized
+0	00:47:50.902	updatetrade AUDUSD,M15: uninit reason 3
+0	00:47:50.904	Tick-Value ENV-check AUDUSD,M15: uninit reason 3
+0	00:47:50.911	Tick-Value ENV-check EURGBP,M15: initialized
+0	00:47:51.245	updatetrade EURGBP,M15: initialized
+0	00:47:52.942	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	00:48:07.601	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=2; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=15.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:48:08.940	!TradeExecutor_v1 EURGBP,M15: initialized
+2	00:48:09.402	!TradeExecutor_v1 EURGBP,M15: open #40569319 sell 0.06 EURGBP at 0.84442 ok
+0	00:48:09.402	!TradeExecutor_v1 EURGBP,M15: Error = no error
+2	00:48:09.844	!TradeExecutor_v1 EURGBP,M15: modify #40569319 sell 0.06 EURGBP at 0.84442 sl: 0.84592 tp: 0.83892 ok
+0	00:48:12.856	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	00:48:12.866	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	00:48:27.386	updatetrade EURGBP,M15: uninit reason 1
+0	00:48:27.391	Expert updatetrade EURGBP,M15: removed
+0	00:48:30.230	Expert New\updatetrade EURGBP,M15: loaded successfully
+0	00:48:32.075	updatetrade EURGBP,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	00:48:32.127	updatetrade EURGBP,M15: initialized
+0	00:50:47.128	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	00:50:56.823	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=12.0; tp=34.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:50:58.349	!TradeExecutor_v1 EURGBP,M15: initialized
+2	00:50:58.752	!TradeExecutor_v1 EURGBP,M15: open #40569640 buy 0.07 EURGBP at 0.84449 ok
+0	00:50:58.752	!TradeExecutor_v1 EURGBP,M15: Error = no error
+2	00:50:59.148	!TradeExecutor_v1 EURGBP,M15: modify #40569640 buy 0.07 EURGBP at 0.84449 sl: 0.84329 tp: 0.84789 ok
+0	00:51:02.857	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	00:51:02.869	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	00:54:11.272	updatetrade EURGBP,M15: uninit reason 2
+0	00:54:11.276	Expert updatetrade EURGBP,M15: removed
+0	00:54:11.305	Expert New\updatetrade EURGBP,M15: loaded successfully
+0	00:54:11.385	updatetrade EURGBP,M15: initialized
+0	00:55:00.969	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	00:55:14.816	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=55.0; tp=77.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	00:55:16.181	!TradeExecutor_v1 EURGBP,M15: initialized
+2	00:55:16.647	!TradeExecutor_v1 EURGBP,M15: open #40570411 buy 0.02 EURGBP at 0.84451 ok
+0	00:55:16.647	!TradeExecutor_v1 EURGBP,M15: Error = no error
+2	00:55:17.176	!TradeExecutor_v1 EURGBP,M15: modify #40570411 buy 0.02 EURGBP at 0.84451 sl: 0.83901 tp: 0.85221 ok
+0	00:55:18.894	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	00:55:18.900	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	08:41:08.377	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	08:41:23.028	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=; 
+0	08:41:24.618	!TradeExecutor_v1 EURGBP,M15: initialized
+2	08:41:25.117	!TradeExecutor_v1 EURGBP,M15: open #40610313 buy 0.03 EURGBP at 0.84590 ok
+0	08:41:25.117	!TradeExecutor_v1 EURGBP,M15: Error = no error
+2	08:41:25.611	!TradeExecutor_v1 EURGBP,M15: modify #40610313 buy 0.03 EURGBP at 0.84590 sl: 0.84260 tp: 0.85140 ok
+0	08:41:29.429	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	08:41:29.448	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	10:13:07.861	updatetrade EURGBP,M15: uninit reason 2
+0	10:13:07.883	Expert updatetrade EURGBP,M15: removed
+0	10:13:07.941	Expert New\updatetrade EURGBP,M15: loaded successfully
+0	10:13:08.135	updatetrade EURGBP,M15: initialized
+0	10:13:27.255	Compiling 'New\updatecurrencies'
+0	10:16:09.405	Custom indicator Custom\Tick-Value ENV-check EURAUD,H1: loaded successfully
+0	10:16:09.444	Expert KillerBOT EURAUD,H1: loaded successfully
+0	10:16:09.498	Tick-Value ENV-check EURAUD,H1: initialized
+0	10:16:09.554	KillerBOT EURAUD,H1: initialized
+0	10:16:19.870	KillerBOT EURAUD,H1: Alert: buy: AUDCAD
+0	10:16:20.009	KillerBOT EURAUD,H1: Alert: buy: AUDUSD
+0	10:16:20.158	KillerBOT EURAUD,H1: Alert: buy: CHFJPY
+0	10:16:20.422	KillerBOT EURAUD,H1: Alert: sell: GBPTRY
+0	10:16:20.724	KillerBOT EURAUD,H1: Alert: buy: USDJPY
+0	10:16:20.854	KillerBOT EURAUD,H1: Alert: sell: USDTRY
+0	10:16:20.991	KillerBOT EURAUD,H1: Alert: buy: AUDCAD
+0	10:16:21.103	KillerBOT EURAUD,H1: Alert: buy: CHFJPY
+0	10:16:21.359	KillerBOT EURAUD,H1: Alert: sell: GBPTRY
+0	10:16:21.529	KillerBOT EURAUD,H1: Alert: buy: USDJPY
+0	10:16:21.606	KillerBOT EURAUD,H1: Alert: sell: USDTRY
+0	10:16:33.458	Tick-Value ENV-check EURAUD,H1: uninit reason 7
+0	10:16:33.458	KillerBOT EURAUD,H1: uninit reason 7
+0	10:16:33.521	Expert KillerBOT EURAUD,H1: removed
+0	10:16:33.523	Custom indicator Tick-Value ENV-check EURAUD,H1: removed
+0	10:16:33.567	Custom indicator Custom\Tick-Value ENV-check EURAUD,H1: loaded successfully
+0	10:16:33.601	Expert KillerBOT EURAUD,H1: loaded successfully
+0	10:16:33.657	Tick-Value ENV-check EURAUD,H1: initialized
+0	10:16:33.745	KillerBOT EURAUD,H1: initialized
+0	10:16:39.512	Tick-Value ENV-check EURAUD,H1: uninit reason 7
+0	10:16:39.512	KillerBOT EURAUD,H1: uninit reason 7
+0	10:16:39.529	Expert KillerBOT EURAUD,H1: removed
+0	10:16:39.537	Custom indicator Tick-Value ENV-check EURAUD,H1: removed
+0	10:16:39.574	Custom indicator Custom\Tick-Value ENV-check EURAUD,H1: loaded successfully
+0	10:16:39.608	Expert KillerBOT EURAUD,H1: loaded successfully
+0	10:16:39.668	Tick-Value ENV-check EURAUD,H1: initialized
+0	10:16:39.745	KillerBOT EURAUD,H1: initialized
+0	10:16:44.102	KillerBOT EURAUD,H1: Alert: buy: AUDCAD
+0	10:16:44.315	KillerBOT EURAUD,H1: Alert: buy: CHFJPY
+0	10:16:44.468	KillerBOT EURAUD,H1: Alert: sell: GBPTRY
+0	10:16:44.633	KillerBOT EURAUD,H1: Alert: buy: USDJPY
+0	10:16:47.272	KillerBOT EURAUD,H1: Alert: buy: AUDCAD
+0	10:16:47.362	KillerBOT EURAUD,H1: Alert: buy: CADJPY
+0	10:16:47.447	KillerBOT EURAUD,H1: Alert: buy: CHFJPY
+0	10:16:47.520	KillerBOT EURAUD,H1: Alert: buy: EURUSD
+0	10:16:47.609	KillerBOT EURAUD,H1: Alert: sell: GBPTRY
+0	10:16:47.619	Tick-Value ENV-check EURAUD,H1: uninit reason 7
+0	10:16:47.686	KillerBOT EURAUD,H1: Alert: sell: USDCHF
+0	10:16:47.767	KillerBOT EURAUD,H1: Alert: sell: USDCNH
+0	10:16:47.860	KillerBOT EURAUD,H1: Alert: buy: USDJPY
+0	10:16:47.888	KillerBOT EURAUD,H1: uninit reason 7
+0	10:16:47.940	Expert KillerBOT EURAUD,H1: removed
+0	10:16:47.947	Custom indicator Tick-Value ENV-check EURAUD,H1: removed
+0	10:16:47.980	Custom indicator Custom\Tick-Value ENV-check EURAUD,H1: loaded successfully

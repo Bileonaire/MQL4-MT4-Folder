@@ -1,0 +1,141 @@
+//+------------------------------------------------------------------+
+//|                                             Instant_Execution.mq4 |
+//+------------------------------------------------------------------+
+#property copyright "Copyright � 2020, Lenny M Kioko."
+#property link      "https://lennykioko.github.io/"
+
+//version 1.0
+
+//show input parameter
+#property show_inputs
+
+#include <stderror.mqh>
+#include <stdlib.mqh>
+
+//external parameters to be provided
+extern string orderType = "";
+extern int numOfOrders = 5;
+extern string comment = "";
+extern double  totalLot = 0.05;
+
+enum e_type{
+ pips=1,
+ price=2,
+};
+
+input e_type  type = pips;
+
+extern double sl = 0;
+extern double tp = 0;
+
+
+double lot = totalLot / numOfOrders;
+
+double stoploss;
+double takeprofit;
+
+double Poin;
+//+------------------------------------------------------------------+
+//| Custom initialization function                                   |
+//+------------------------------------------------------------------+
+int init() {
+   if (Point == 0.00001) Poin = 0.0001;
+   else {
+      if (Point == 0.001) Poin = 0.01;
+      else {
+         if (Point == 0.01) Poin = 0.1;
+         else {
+            if (Point == 0.1) Poin = 1;
+            else Poin = 0;
+         }
+      }
+   }
+   return(0);
+}
+//+------------------------------------------------------------------+
+//                                                                   +
+//+------------------------------------------------------------------+
+
+int start() {
+   Execute();
+   if (type == 1) {
+      ModifyPips();
+   }
+   if (type == 2) {
+      ModifyPrice();
+   }
+   return(0);
+}
+
+int Execute() {
+   RefreshRates();
+   while( IsTradeContextBusy() ) { Sleep(100); }
+//----
+   while( numOfOrders > 0) {
+      if (orderType == "b") {
+         int ticket = OrderSend(Symbol(), OP_BUY, lot, Ask, 3, 0.000, 0.000, comment, 11, 0, CLR_NONE);
+      }
+      if (orderType == "s") {
+         ticket = OrderSend(Symbol(), OP_SELL, lot, Ask, 3, 0.000, 0.000, comment, 22, 0, CLR_NONE);
+      }
+      numOfOrders-=1;
+   }
+   if (ticket != numOfOrders) {
+      int error = GetLastError();
+      Print("Error = ", ErrorDescription(error));
+      return ticket - numOfOrders;
+   }
+//----
+   OrderPrint();
+   return(0);
+}
+
+int ModifyPips() {
+//----
+   int ordertotal = OrdersTotal();
+   for (int i=0; i<ordertotal; i++)
+   {
+      int order = OrderSelect(i, SELECT_BY_POS, MODE_TRADES);
+      if (OrderSymbol() == Symbol())
+         if (OrderComment() == comment && (OrderType()==OP_BUY || OrderType()==OP_BUYSTOP))
+         {
+            if (sl==0.0) stoploss = 0.0;
+            else stoploss = OrderOpenPrice()-sl*Poin;
+
+            if (tp==0.0) takeprofit = 0.0;
+            else takeprofit = OrderOpenPrice()+tp*Poin;
+
+            int ticket = OrderModify(OrderTicket(), OrderOpenPrice(), stoploss, takeprofit, 0);
+         }
+
+         if (OrderComment() == comment && (OrderType()==OP_SELL || OrderType()==OP_SELLSTOP))
+         {
+            if (sl==0.0) stoploss = 0.0;
+            else stoploss = OrderOpenPrice()+sl*Poin;
+
+            if (tp==0.0) takeprofit = 0.0;
+            else takeprofit = OrderOpenPrice()-tp*Poin;
+
+            int ticket2 = OrderModify(OrderTicket(), OrderOpenPrice(), stoploss, takeprofit, 0);
+         }
+      }
+//----
+return(0);
+}
+
+
+int ModifyPrice() {
+//----
+   int ordertotal = OrdersTotal();
+   for (int i=0; i<ordertotal; i++)
+   {
+      int order = OrderSelect(i, SELECT_BY_POS, MODE_TRADES);
+      if (OrderSymbol() == Symbol())
+         if (OrderComment() == comment)
+         {
+            int ticket3 = OrderModify(OrderTicket(), OrderOpenPrice(), sl, tp, 0);
+         }
+      }
+//----
+return(0);
+}

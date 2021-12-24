@@ -1,0 +1,83 @@
+0	09:37:29.202	Compiling 'tradeManager'
+0	09:37:31.567	Compiling 'New\updatetrade'
+0	09:37:34.251	Compiling '!TradeExecutor_v1'
+0	09:37:58.211	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	09:38:03.271	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	09:38:03.297	updatetrade AUDUSD,M15: initialized
+0	09:39:01.425	updatetrade AUDUSD,M15: uninit reason 1
+0	09:39:01.430	Expert updatetrade AUDUSD,M15: removed
+0	18:40:55.726	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	18:41:03.260	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	19:47:11.863	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	19:47:14.264	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	19:47:14.314	updatetrade AUDUSD,M15: initialized
+0	19:47:55.092	updatetrade AUDUSD,M15: uninit reason 1
+0	19:47:55.099	Expert updatetrade AUDUSD,M15: removed
+0	19:47:57.787	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	19:47:59.722	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	19:47:59.760	updatetrade AUDUSD,M15: initialized
+0	19:48:15.513	updatetrade AUDUSD,M15: uninit reason 1
+0	19:48:15.517	Expert updatetrade AUDUSD,M15: removed
+0	19:50:31.184	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	19:50:32.977	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	19:50:33.064	updatetrade AUDUSD,M15: initialized
+0	19:50:58.031	updatetrade AUDUSD,M15: uninit reason 1
+0	19:50:58.039	Expert updatetrade AUDUSD,M15: removed
+0	19:51:37.103	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	19:51:38.988	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	19:51:39.048	updatetrade AUDUSD,M15: initialized
+0	19:51:51.164	updatetrade AUDUSD,M15: uninit reason 1
+0	19:51:51.198	Expert updatetrade AUDUSD,M15: removed
+0	20:22:33.246	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	20:22:35.593	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	20:22:35.668	updatetrade AUDUSD,M15: initialized
+0	20:23:21.659	updatetrade AUDUSD,M15: uninit reason 1
+0	20:23:21.694	Expert updatetrade AUDUSD,M15: removed
+0	20:53:25.834	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	20:53:30.469	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	20:54:17.110	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	20:54:19.184	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	20:54:19.237	updatetrade AUDUSD,M15: initialized
+3	20:55:57.502	updatetrade AUDUSD,M15: shutdown by timeout
+0	20:55:57.508	updatetrade AUDUSD,M15: uninit reason 1
+0	20:55:57.511	Expert updatetrade AUDUSD,M15: removed
+0	21:02:24.525	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	21:02:26.225	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	21:02:26.312	updatetrade AUDUSD,M15: initialized
+0	21:04:55.604	updatetrade AUDUSD,M15: uninit reason 1
+0	21:04:55.629	Expert updatetrade AUDUSD,M15: removed
+0	21:04:57.945	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	21:04:59.975	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	21:05:00.049	updatetrade AUDUSD,M15: initialized
+0	21:05:47.255	updatetrade AUDUSD,M15: uninit reason 1
+0	21:05:47.262	Expert updatetrade AUDUSD,M15: removed
+0	21:10:47.016	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	21:10:48.887	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	21:10:48.955	updatetrade AUDUSD,M15: initialized
+0	21:13:20.460	updatetrade AUDUSD,M15: uninit reason 1
+0	21:13:20.464	Expert updatetrade AUDUSD,M15: removed
+0	21:14:17.453	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	21:14:19.286	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	21:14:19.345	updatetrade AUDUSD,M15: initialized
+0	21:16:37.469	updatetrade AUDUSD,M15: uninit reason 1
+0	21:16:37.538	Expert updatetrade AUDUSD,M15: removed
+0	21:16:40.687	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	21:16:43.074	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	21:16:43.142	updatetrade AUDUSD,M15: initialized
+3	21:17:34.502	updatetrade AUDUSD,M15: shutdown by timeout
+0	21:17:34.507	updatetrade AUDUSD,M15: uninit reason 1
+0	21:17:34.510	Expert updatetrade AUDUSD,M15: removed
+0	21:21:37.902	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	21:21:41.267	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	21:21:41.312	updatetrade AUDUSD,M15: initialized
+0	21:24:40.649	updatetrade AUDUSD,M15: uninit reason 1
+0	21:24:40.683	Expert updatetrade AUDUSD,M15: removed
+0	21:40:45.691	Script !TradeExecutor_v1 AUDUSD,M15: loaded successfully
+0	21:40:51.971	Script !TradeExecutor_v1 AUDUSD,M15: removed
+0	23:14:05.708	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	23:14:07.488	updatetrade AUDUSD,M15 inputs: RR_Ratio=1.5; newSLPips=2.0; 
+0	23:14:07.551	updatetrade AUDUSD,M15: initialized
+0	23:59:03.307	updatetrade AUDUSD,M15: uninit reason 2
+0	23:59:03.312	Expert updatetrade AUDUSD,M15: removed
+0	23:59:03.345	Expert New\updatetrade AUDUSD,M15: loaded successfully
+0	23:59:03.475	updatetrade AUDUSD,M15: initialized
