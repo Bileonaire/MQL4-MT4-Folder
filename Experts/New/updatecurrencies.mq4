@@ -8,40 +8,44 @@
 #property version   "1.00"
 #property strict
 
+double latestUpdateMinute;
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
 int OnInit() {
   return(INIT_SUCCEEDED);
-  }
+}
 //+------------------------------------------------------------------+
 //| Expert deinitialization function                                 |
 //+------------------------------------------------------------------+
-void OnDeinit(const int reason)
-  {}
+void OnDeinit(const int reason) {}
 //+------------------------------------------------------------------+
 //| Expert tick function                                             |
 //+------------------------------------------------------------------+
-bool done = true;
-void OnTick()
-{
-  string pairs[];
-  int length = getAvailableCurrencyPairs(pairs);
 
-  if (done) {
-    for(int i=0; i < length; i++) {
-        if (MarketInfo(pairs[i], MODE_SPREAD) < 20  && IsTradeAllowed(pairs[i], TimeCurrent()) &&  MarketInfo(pairs[i], MODE_ASK) > 0 ) {
-            int D1 = EMAtrend(pairs[i], 1440, 8, 7);
-            int H4 = EMAtrend(pairs[i], 240, 8, 9);
-            int H1 = EMAtrend(pairs[i], 60, 8, 13);
-            int M15 = EMAtrend(pairs[i], 15, 8, 15);
-            int updateCurrency = SendJournal(pairs[i], addPoints(pairs[i]), MarketInfo(pairs[i], MODE_SPREAD), D1, H4, H1, M15);
+void OnTick() {
+    if (latestUpdateMinute != Minute() && updateTime(Minute())) {
+        string pairs[];
+        int length = getAvailableCurrencyPairs(pairs);
+
+        for(int i=0; i < length; i++) {
+            if (MarketInfo(pairs[i], MODE_SPREAD) < 20  && IsTradeAllowed(pairs[i], TimeCurrent()) &&  MarketInfo(pairs[i], MODE_ASK) > 0 ) {
+                int D1 = EMAtrend(pairs[i], 1440, 8, 7);
+                int H4 = EMAtrend(pairs[i], 240, 8, 9);
+                int H1 = EMAtrend(pairs[i], 60, 8, 13);
+                int M15 = EMAtrend(pairs[i], 15, 8, 15);
+                int updateCurrency = SendJournal(pairs[i], addPoints(pairs[i]), MarketInfo(pairs[i], MODE_SPREAD), D1, H4, H1, M15);
+            }
         }
     }
-  }
 
-  done = false;
-  return;
+    latestUpdateMinute = Minute();
+    return;
+}
+
+bool updateTime (int minute) {
+    if (minute % 14 == 0 || minute % 29 == 0 || minute % 44 == 0 || minute % 59 == 0) return true;
+    else return false;
 }
 
 //+------------------------------------------------------------------+

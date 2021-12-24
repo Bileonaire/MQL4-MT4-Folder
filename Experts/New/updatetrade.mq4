@@ -18,33 +18,29 @@ extern double newSLPips = 2;
 
 int openTrades;
 int ordertotal;
-int trades[10] = {};
+int trades[15] = {};
 
-datetime LastActiontime;
+double latestUpdateMinute;
 
 string chatId3 = "-1001366966111";  // bileonaire_fx -- Small group with Tom
 string chatId4 = "-1001662752776"; // Leon Private group
 //+------------------------------------------------------------------+sd
 //| OnTick function                                                  |
 //+------------------------------------------------------------------+
-void OnTick()
-  {
-   //Comparing LastActionTime with the current starting time for the candle
-//    if(LastActiontime!=Time[0]){
-      //Code to execute once in the bar
-      manageTrades();
-    //   LastActiontime=Time[0];
-//    }
-  }
+void OnTick() {
+    if (latestUpdateMinute != Minute() && updateTime(Minute())) {
+        manageTrades();
+    }
+    latestUpdateMinute = Minute();
+    return;
+}
+
+bool updateTime (int minute) {
+    if (minute % 5 == 0) return true;
+    else return false;
+}
 
 int manageTrades() {
-    // trades[0] = 222112333;
-    // MessageBox(trades[0]);
-
-    // if(OrderSelect(40128769, SELECT_BY_TICKET)==true) {
-    //     MessageBox(OrderOpenPrice());
-    // }
-
     ordertotal = OrdersTotal();
 
     for (int i=0 ; i <ordertotal; i++) {
