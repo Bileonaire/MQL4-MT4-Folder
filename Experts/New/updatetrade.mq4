@@ -254,7 +254,6 @@ double addPoints(string cur) {
   if (environment(cur, 15) == "buy") accumulate += 1;
   if (closeAboveBelowEMA(cur, 15, 200) == "buy") accumulate += 1.5;
 
-  double buyPercent = (accumulate/20)*100;
-  string percent = DoubleToStr(buyPercent, 2);
+  double percent = (accumulate/20)*100;
   return percent;
 }

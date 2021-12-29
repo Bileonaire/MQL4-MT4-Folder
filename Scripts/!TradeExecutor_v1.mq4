@@ -493,14 +493,13 @@ int SendJournal() {
    int M15 = EMAtrend(instrument, 15, 8, 15);
 
    double accumulate = addPoints(instrument);
-   double percent = (accumulate/20)*100;
 
    double total = ((D1 + H4 + H1 + M15) / 4 + accumulate) / 2;
    double avg = NormalizeDouble(total , 2);
    percent = NormalizeDouble(accumulate,2);
 
    string data = StringConcatenate(
-      "&accumulate=" + percent +"&"+
+      "&accumulate=" + accumulate +"&"+
 
       "D1CLOSE=" + PriceAboveBelowClose(instrument, 1440, 1) +"&"+
       "H4CLOSE=" + PriceAboveBelowClose(instrument, 240, 1) +"&"+
