@@ -77,6 +77,9 @@ input e_send_signal send_signal = Yeah;
 extern string consider= "Hey!!! I am considering this setup --- ";
 extern double ratio = 3.0;
 extern string link = "";
+
+extern string url = "https://8188-41-212-47-64.ngrok.io";
+
 string chatId = "-1001278337047";
 string chatId2 = "-1001237306634";  // bileonaire_fx_community
 string chatId3 = "-1001366966111";  // bileonaire_fx -- Small group with Tom
@@ -484,8 +487,20 @@ int SendJournal() {
    int timeout=5000;
    string instrument = Symbol();
 
+   int D1 = EMAtrend(instrument, 1440, 8, 7);
+   int H4 = EMAtrend(instrument, 240, 8, 9);
+   int H1 = EMAtrend(instrument, 60, 8, 13);
+   int M15 = EMAtrend(instrument, 15, 8, 15);
+
+   double accumulate = addPoints(instrument);
+   double percent = (accumulate/20)*100;
+
+   double total = ((D1 + H4 + H1 + M15) / 4 + accumulate) / 2;
+   double avg = NormalizeDouble(total , 2);
+   percent = NormalizeDouble(accumulate,2);
+
    string data = StringConcatenate(
-      "&accumulate=" + addPoints(instrument) +"&"+
+      "&accumulate=" + percent +"&"+
 
       "D1CLOSE=" + PriceAboveBelowClose(instrument, 1440, 1) +"&"+
       "H4CLOSE=" + PriceAboveBelowClose(instrument, 240, 1) +"&"+
@@ -523,11 +538,17 @@ int SendJournal() {
       "M15ENV=" + environment(instrument,15) +"&"+
       "image1=" + link +"&"+
       "ticketNum=" + ticketNum +"&"+
-      "commission=" + commission+"&"+
-      "lotSize=" + NormalizeDouble(lotSize, 2)
+      "commission=" + commission +"&"+
+      "lotSize=" + NormalizeDouble(lotSize, 2)  +"&"+
+
+      "TrendD1=" +  D1 +"&"+
+      "TrendH4="  + H4 +"&"+
+      "TrendH1="  + H1 +"&"+
+      "TrendM15=" + M15 +"&"+
+      "AvgTrend=" + avg
    );
 
-   string journalAPI=StringConcatenate("https://2ce2-41-212-47-64.ngrok.io/api/newtrade?traderId=1&currency=" + instrument + "&direction="+EnumToString(orderType)+"&slPrice=" + stoploss_Price + "&tpPrice=" + takeprofit_Price + "&slPips=" + sl + "&tpPips=" + tp + "&RR=" + NormalizeDouble((tp/sl),2) + data);
+   string journalAPI=StringConcatenate(url + "/api/newtrade?traderId=1&currency=" + instrument + "&direction="+EnumToString(orderType)+"&slPrice=" + stoploss_Price + "&tpPrice=" + takeprofit_Price + "&slPips=" + sl + "&tpPips=" + tp + "&RR=" + NormalizeDouble((tp/sl),2) + data);
    ResetLastError();
    int journal=WebRequest("GET",journalAPI,cookie,NULL,timeout,post,0,result,headers);
    if (journal != 201) MessageBox(journal);
@@ -559,6 +580,19 @@ string curDetails (string cur) {
             " Env_4H : " + environment(cur,240) +
             "}";
   return text;
+}
+
+int EMAtrend(string currency, int timef, int movingAVG, int range) {
+    double trend = 0;
+    for(int i = range; i > 1; i--) {
+        int j = i - 1;
+        if (iMA(currency,timef,movingAVG,0,MODE_EMA,PRICE_CLOSE,j) > iMA(currency,timef,movingAVG,0,MODE_EMA,PRICE_CLOSE,i)) {
+            trend += 1;
+        }
+    }
+
+    double percent = (trend/range)*100;
+    return percent;
 }
 
 //+------------------------------------------------------------------+

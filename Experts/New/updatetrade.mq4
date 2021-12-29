@@ -16,6 +16,8 @@
 extern double RR_Ratio = 1.5;
 extern double newSLPips = 2;
 
+extern string url = "https://8188-41-212-47-64.ngrok.io";
+
 int openTrades;
 int ordertotal;
 int trades[15] = {};
@@ -28,15 +30,15 @@ string chatId4 = "-1001662752776"; // Leon Private group
 //| OnTick function                                                  |
 //+------------------------------------------------------------------+
 void OnTick() {
-    if (latestUpdateMinute != Minute() && updateTime(Minute())) {
+    // if (latestUpdateMinute != Minute() && updateTime(Minute())) {
         manageTrades();
-    }
-    latestUpdateMinute = Minute();
-    return;
+    // }
+    // latestUpdateMinute = Minute();
+    // return;
 }
 
 bool updateTime (int minute) {
-    if (minute % 5 == 0) return true;
+    if (minute % 1 == 0) return true;
     else return false;
 }
 
@@ -81,8 +83,8 @@ int checkClosed () {
             if(OrderSelect(trades[i], SELECT_BY_TICKET)==true) {
                 if(OrderType()!=OP_SELLLIMIT || OrderType()!=OP_SELLSTOP || OrderType()!=OP_BUYSTOP || OrderType()!=OP_BUYLIMIT ) {
                     if (OrderCloseTime() != 0) {
-                        int journalClose = SendJournal(OrderTicket(), OrderCommission(), OrderSwap(),TimeLocal(), OrderClosePrice());
-                        if ( journalClose != 200 ) MessageBox(journalClose);
+                        int journalClose = SendJournal(OrderTicket(), OrderCommission(), OrderSwap(), TimeGMT(), OrderClosePrice(), OrderProfit());
+                        //if ( journalClose != 200 ) MessageBox(journalClose);
                         trades[i] = 0;
                     }
                 }
@@ -92,7 +94,7 @@ int checkClosed () {
     return 0;
 }
 
-int SendJournal(int ticket, double commission, double swap, datetime  closeTime, double closePrice) {
+int SendJournal(int ticket, double commission, double swap, datetime  closeTime, double closePrice, double profit) {
     string cookie=NULL,headers;
     char post[],result[];
     int timeout=5000;
@@ -101,13 +103,14 @@ int SendJournal(int ticket, double commission, double swap, datetime  closeTime,
     string data = StringConcatenate(
         "closePrice=" + closePrice +"&"+
         "commission=" + comm +"&"+
-        "closedAt=" + closeTime
+        "closedAt=" + closeTime +"&"+
+        "profit=" + profit
     );
 
-    string journalAPI=StringConcatenate("https://2ce2-41-212-47-64.ngrok.io/api/updatetrade/" + ticket + "?" + data);
+    string journalAPI=StringConcatenate(url + "/api/updatetrade/" + ticket + "?" + data);
     ResetLastError();
     int journal=WebRequest("GET",journalAPI,cookie,NULL,timeout,post,0,result,headers);
-    return(journal);
+    return journal;
 }
 
 double CalculateRR(string symbol, double entryPrice, double slPrice, double currentPrice)
@@ -147,8 +150,6 @@ int SendSignal(string message) {
    int free=WebRequest("POST",bileonaire_fx_free,cookie,NULL,timeout,post,0,result,headers);
 return(0);
 }
-
-
 
 //+------------------------------------------------------------------+
 string closeAboveBelowSMA(string currency, int timef, int movingAVG)
@@ -252,5 +253,8 @@ double addPoints(string cur) {
   if (check_prev_candle(cur, 15, 1) == "buy") accumulate += 1;
   if (environment(cur, 15) == "buy") accumulate += 1;
   if (closeAboveBelowEMA(cur, 15, 200) == "buy") accumulate += 1.5;
-  return accumulate;
+
+  double buyPercent = (accumulate/20)*100;
+  string percent = DoubleToStr(buyPercent, 2);
+  return percent;
 }

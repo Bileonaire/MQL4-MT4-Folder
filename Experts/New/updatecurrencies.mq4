@@ -8,11 +8,23 @@
 #property version   "1.00"
 #property strict
 
+extern string url= "https://8188-41-212-47-64.ngrok.io";
 double latestUpdateMinute;
+
+
+string pairs[] = {"USDJPY", "AUDUSD", "NZDUSD", "EURUSD", "GBPUSD", "USDCHF", "USDCAD", // majors
+  "EURJPY", "EURAUD", "EURNZD", "EURGBP", "EURCHF", "EURCAD", // EUR pairs
+  "GBPJPY", "GBPAUD", "GBPNZD", "GBPCHF", "GBPCAD", // GBP pairs
+  "AUDJPY", "NZDJPY", "CHFJPY", "CADJPY", // JPY pairs
+  "AUDNZD", "AUDCHF", "AUDCAD", "CADCHF", "NZDCHF", "NZDCAD", "USDCNH", // others
+  "XAUUSD", "XAGUSD", // Gold
+};
+
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
 int OnInit() {
+  latestUpdateMinute = 0;
   return(INIT_SUCCEEDED);
 }
 //+------------------------------------------------------------------+
@@ -25,10 +37,10 @@ void OnDeinit(const int reason) {}
 
 void OnTick() {
     if (latestUpdateMinute != Minute() && updateTime(Minute())) {
-        string pairs[];
-        int length = getAvailableCurrencyPairs(pairs);
+        //string pairs[];
+        //int length = getAvailableCurrencyPairs(pairs);
 
-        for(int i=0; i < length; i++) {
+        for(int i=0; i < ArraySize(pairs); i++) {
             if (MarketInfo(pairs[i], MODE_SPREAD) < 20  && IsTradeAllowed(pairs[i], TimeCurrent()) &&  MarketInfo(pairs[i], MODE_ASK) > 0 ) {
                 int D1 = EMAtrend(pairs[i], 1440, 8, 7);
                 int H4 = EMAtrend(pairs[i], 240, 8, 9);
@@ -44,7 +56,8 @@ void OnTick() {
 }
 
 bool updateTime (int minute) {
-    if (minute % 14 == 0 || minute % 29 == 0 || minute % 44 == 0 || minute % 59 == 0) return true;
+    if (minute % 5 == 0 ) return true;
+    // if (minute % 14 == 0 || minute % 29 == 0 || minute % 44 == 0 || minute % 59 == 0) return true;
     else return false;
 }
 
@@ -78,11 +91,13 @@ int SendJournal(string cur, double accumulate, int spread, double TrendD1 ,doubl
     string cookie=NULL,headers;
     char post[],result[];
     int timeout=5000;
-    double avg = (TrendD1 + TrendH4 + TrendH1 + TrendM15) / 4;
+    double total = ((TrendD1 + TrendH4 + TrendH1 + TrendM15) / 4 + accumulate) / 2;
+    double avg = NormalizeDouble(total , 2);
+    double acc = NormalizeDouble(accumulate,2);
 
     string data = StringConcatenate(
         "name=" + cur +"&"+
-        "accumulate=" + accumulate +"&"+
+        "accumulate=" + acc +"&"+
         "spread=" + spread +"&"+
         "TrendD1=" + TrendD1 +"&"+
         "TrendH4=" + TrendH4 +"&"+
@@ -91,21 +106,23 @@ int SendJournal(string cur, double accumulate, int spread, double TrendD1 ,doubl
         "AvgTrend=" + avg
     );
 
-    string currencyAPI=StringConcatenate("https://2ce2-41-212-47-64.ngrok.io/api/currency?" + data);
+    string currencyAPI=StringConcatenate(url +"/api/currency?" + data);
     ResetLastError();
     int currencyData=WebRequest("GET",currencyAPI,cookie,NULL,timeout,post,0,result,headers);
     return(currencyData);
 }
 
 int EMAtrend(string currency, int timef, int movingAVG, int range) {
-   int trend = 0;
-   for(int i = range; i > 1; i--) {
+    double trend = 0;
+    for(int i = range; i > 1; i--) {
         int j = i - 1;
         if (iMA(currency,timef,movingAVG,0,MODE_EMA,PRICE_CLOSE,j) > iMA(currency,timef,movingAVG,0,MODE_EMA,PRICE_CLOSE,i)) {
             trend += 1;
         }
-   }
-   return trend;
+    }
+
+    double percent = (trend/range)*100;
+    return percent;
 }
 
 //+------------------------------------------------------------------+
@@ -210,5 +227,7 @@ double addPoints(string cur) {
   if (check_prev_candle(cur, 15, 1) == "buy") accumulate += 1;
   if (environment(cur, 15) == "buy") accumulate += 1;
   if (closeAboveBelowEMA(cur, 15, 200) == "buy") accumulate += 1.5;
-  return accumulate;
+
+  double percent = (accumulate/20)*100;
+  return percent;
 }

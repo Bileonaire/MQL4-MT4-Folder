@@ -197,3 +197,218 @@
 0	10:16:47.940	Expert KillerBOT EURAUD,H1: removed
 0	10:16:47.947	Custom indicator Tick-Value ENV-check EURAUD,H1: removed
 0	10:16:47.980	Custom indicator Custom\Tick-Value ENV-check EURAUD,H1: loaded successfully
+0	10:16:48.021	Tick-Value ENV-check EURAUD,H1: initialized
+0	10:16:54.941	Expert New\updatecurrencies EURAUD,H1: loaded successfully
+0	10:16:59.802	updatecurrencies EURAUD,H1: initialized
+3	10:26:42.507	updatecurrencies EURAUD,H1: shutdown by timeout
+1	10:26:50.528	updatecurrencies EURAUD,H1: Abnormal termination
+0	10:26:50.528	updatecurrencies EURAUD,H1: uninit reason 1
+0	10:26:50.528	Expert updatecurrencies EURAUD,H1: removed
+0	10:32:10.446	Expert New\updatecurrencies EURAUD,H1: loaded successfully
+0	10:32:13.046	updatecurrencies EURAUD,H1: initialized
+3	10:33:37.505	updatecurrencies EURAUD,H1: shutdown by timeout
+1	10:33:45.158	updatecurrencies EURAUD,H1: Abnormal termination
+0	10:33:45.158	updatecurrencies EURAUD,H1: uninit reason 1
+0	10:33:45.158	Expert updatecurrencies EURAUD,H1: removed
+0	10:33:57.436	Expert New\updatecurrencies EURAUD,H1: loaded successfully
+0	10:33:59.755	updatecurrencies EURAUD,H1: initialized
+3	10:34:55.525	updatecurrencies EURAUD,H1: shutdown by timeout
+1	10:35:03.602	updatecurrencies EURAUD,H1: Abnormal termination
+0	10:35:03.602	updatecurrencies EURAUD,H1: uninit reason 1
+0	10:35:03.602	Expert updatecurrencies EURAUD,H1: removed
+0	10:36:28.969	Expert New\updatecurrencies EURAUD,H1: loaded successfully
+0	10:36:30.790	updatecurrencies EURAUD,H1: initialized
+3	10:37:02.518	updatecurrencies EURAUD,H1: shutdown by timeout
+1	10:37:10.522	updatecurrencies EURAUD,H1: Abnormal termination
+0	10:37:10.522	updatecurrencies EURAUD,H1: uninit reason 1
+0	10:37:10.522	Expert updatecurrencies EURAUD,H1: removed
+0	10:37:18.350	Expert New\updatecurrencies EURAUD,H1: loaded successfully
+0	10:37:20.160	updatecurrencies EURAUD,H1: initialized
+0	10:56:34.297	updatecurrencies EURAUD,H1: uninit reason 1
+0	10:56:34.323	Expert updatecurrencies EURAUD,H1: removed
+0	10:56:41.544	Expert New\updatecurrencies EURAUD,H1: loaded successfully
+0	10:56:43.158	updatecurrencies EURAUD,H1: initialized
+0	10:58:56.231	updatecurrencies EURAUD,H1: uninit reason 3
+0	10:58:56.246	Tick-Value ENV-check EURAUD,H1: uninit reason 3
+0	10:58:56.246	Tick-Value ENV-check GBPJPY,H1: initialized
+0	10:58:56.470	updatecurrencies GBPJPY,H1: initialized
+0	11:05:02.368	updatecurrencies GBPJPY,H1: uninit reason 1
+0	11:05:02.384	Expert updatecurrencies GBPJPY,H1: removed
+0	11:05:06.556	Expert New\updatecurrencies GBPJPY,H1: loaded successfully
+0	11:05:08.185	updatecurrencies GBPJPY,H1: initialized
+0	11:08:04.410	updatecurrencies GBPJPY,H1: uninit reason 2
+0	11:08:04.433	Expert updatecurrencies GBPJPY,H1: removed
+0	11:08:04.459	Expert New\updatecurrencies GBPJPY,H1: loaded successfully
+0	11:08:04.534	updatecurrencies GBPJPY,H1: initialized
+0	11:10:40.424	updatecurrencies GBPJPY,H1: uninit reason 2
+0	11:10:40.440	Expert updatecurrencies GBPJPY,H1: removed
+0	11:10:40.466	Expert New\updatecurrencies GBPJPY,H1: loaded successfully
+0	11:10:40.523	updatecurrencies GBPJPY,H1: initialized
+0	11:11:03.032	updatecurrencies GBPJPY,H1: uninit reason 1
+0	11:11:03.048	Expert updatecurrencies GBPJPY,H1: removed
+0	11:11:05.423	Expert New\updatecurrencies GBPJPY,H1: loaded successfully
+0	11:11:06.868	updatecurrencies GBPJPY,H1: initialized
+0	11:40:39.467	updatecurrencies GBPJPY,H1: uninit reason 1
+0	11:40:39.483	Expert updatecurrencies GBPJPY,H1: removed
+0	11:40:42.143	Expert New\updatecurrencies GBPJPY,H1: loaded successfully
+0	11:40:43.585	updatecurrencies GBPJPY,H1: initialized
+0	11:42:14.913	updatecurrencies GBPJPY,H1: uninit reason 3
+0	11:42:14.929	Tick-Value ENV-check GBPJPY,H1: uninit reason 3
+0	11:42:14.929	Tick-Value ENV-check AUDJPY,H1: initialized
+0	11:42:14.929	updatecurrencies AUDJPY,H1: initialized
+0	11:42:22.899	updatecurrencies AUDJPY,H1: uninit reason 3
+0	11:42:22.901	Tick-Value ENV-check AUDJPY,H1: uninit reason 3
+0	11:42:22.901	Tick-Value ENV-check AUDJPY,H4: initialized
+0	11:42:22.902	updatecurrencies AUDJPY,H4: initialized
+0	11:49:02.834	updatecurrencies AUDJPY,H4: uninit reason 2
+0	11:49:02.837	Expert updatecurrencies AUDJPY,H4: removed
+0	11:49:02.859	Expert New\updatecurrencies AUDJPY,H4: loaded successfully
+0	11:49:02.909	updatecurrencies AUDJPY,H4: initialized
+0	11:49:30.160	updatecurrencies AUDJPY,H4: uninit reason 1
+0	11:49:30.175	Expert updatecurrencies AUDJPY,H4: removed
+0	11:49:31.876	Expert New\updatecurrencies AUDJPY,H4: loaded successfully
+0	11:49:33.667	updatecurrencies AUDJPY,H4: initialized
+3	11:50:12.511	updatecurrencies AUDJPY,H4: shutdown by timeout
+0	11:50:13.103	updatecurrencies AUDJPY,H4: uninit reason 1
+0	11:50:13.119	Expert updatecurrencies AUDJPY,H4: removed
+0	11:50:41.323	Expert New\updatecurrencies AUDJPY,H4: loaded successfully
+0	11:50:42.522	updatecurrencies AUDJPY,H4: initialized
+3	11:51:43.531	updatecurrencies AUDJPY,H4: shutdown by timeout
+0	11:51:44.954	updatecurrencies AUDJPY,H4: uninit reason 1
+0	11:51:44.957	Expert updatecurrencies AUDJPY,H4: removed
+0	11:57:02.594	Expert New\updatecurrencies AUDJPY,H4: loaded successfully
+0	11:57:03.939	Expert updatecurrencies AUDJPY,H4: removed
+0	11:57:08.625	Expert New\updatecurrencies AUDJPY,H4: loaded successfully
+0	11:57:09.935	updatecurrencies AUDJPY,H4: initialized
+0	12:17:53.637	updatecurrencies AUDJPY,H4: uninit reason 3
+0	12:17:53.653	Tick-Value ENV-check AUDJPY,H4: uninit reason 3
+0	12:17:53.654	Tick-Value ENV-check USDCAD,H4: initialized
+0	12:17:53.843	updatecurrencies USDCAD,H4: initialized
+0	12:18:34.382	updatecurrencies USDCAD,H4: uninit reason 3
+0	12:18:34.397	Tick-Value ENV-check USDCAD,H4: uninit reason 3
+0	12:18:34.397	Tick-Value ENV-check EURCHF,H4: initialized
+0	12:18:34.677	updatecurrencies EURCHF,H4: initialized
+0	12:18:39.272	updatecurrencies EURCHF,H4: uninit reason 3
+0	12:18:39.287	Tick-Value ENV-check EURCHF,H4: uninit reason 3
+0	12:18:39.287	Tick-Value ENV-check EURCHF,H1: initialized
+0	12:18:39.287	updatecurrencies EURCHF,H1: initialized
+0	12:18:42.424	updatecurrencies EURCHF,H1: uninit reason 3
+0	12:18:42.440	Tick-Value ENV-check EURCHF,H1: uninit reason 3
+0	12:18:42.440	Tick-Value ENV-check EURCHF,M5: initialized
+0	12:18:42.891	Tick-Value ENV-check EURCHF,M5: uninit reason 3
+0	12:18:42.891	Tick-Value ENV-check EURCHF,M15: initialized
+0	12:18:42.891	updatecurrencies EURCHF,M15: initialized
+0	12:19:22.106	updatecurrencies EURCHF,M15: uninit reason 3
+0	12:19:22.131	Tick-Value ENV-check EURCHF,M15: uninit reason 3
+0	12:19:22.131	Tick-Value ENV-check CADJPY,M15: initialized
+0	12:19:22.131	updatecurrencies CADJPY,M15: initialized
+0	12:19:52.607	updatecurrencies CADJPY,M15: uninit reason 3
+0	12:19:52.633	Tick-Value ENV-check CADJPY,M15: uninit reason 3
+0	12:19:52.633	Tick-Value ENV-check USDMXN,M15: initialized
+0	12:19:52.845	updatecurrencies USDMXN,M15: initialized
+0	12:23:02.609	updatecurrencies USDMXN,M15: uninit reason 3
+0	12:23:02.625	Tick-Value ENV-check USDMXN,M15: uninit reason 3
+0	12:23:02.625	Tick-Value ENV-check CADJPY,M15: initialized
+0	12:23:02.625	updatecurrencies CADJPY,M15: initialized
+0	12:23:04.765	updatecurrencies CADJPY,M15: uninit reason 3
+0	12:23:04.780	Tick-Value ENV-check CADJPY,M15: uninit reason 3
+0	12:23:04.780	Tick-Value ENV-check CADJPY,Daily: initialized
+0	12:23:04.780	updatecurrencies CADJPY,Daily: initialized
+0	12:33:39.669	updatecurrencies CADJPY,Daily: uninit reason 2
+0	12:33:39.669	Expert updatecurrencies CADJPY,Daily: removed
+0	12:33:39.684	Expert New\updatecurrencies CADJPY,Daily: loaded successfully
+0	12:33:39.721	updatecurrencies CADJPY,Daily: initialized
+0	12:34:30.974	updatecurrencies CADJPY,Daily: uninit reason 3
+0	12:34:30.989	Tick-Value ENV-check CADJPY,Daily: uninit reason 3
+0	12:34:30.989	Tick-Value ENV-check DXY_Z9,Daily: initialized
+3	12:34:30.989	updatecurrencies DXY_Z9,Daily: cannot refresh history [4073]
+0	12:34:30.989	updatecurrencies DXY_Z9,Daily: initialized
+0	12:34:40.190	updatecurrencies DXY_Z9,Daily: uninit reason 3
+0	12:34:40.206	Tick-Value ENV-check DXY_Z9,Daily: uninit reason 3
+0	12:34:40.206	Tick-Value ENV-check DXY_Z9,H1: initialized
+3	12:34:40.206	updatecurrencies DXY_Z9,H1: cannot refresh history [4073]
+0	12:34:40.206	updatecurrencies DXY_Z9,H1: initialized
+0	12:45:39.032	updatecurrencies DXY_Z9,H1: uninit reason 2
+0	12:45:39.048	Expert updatecurrencies DXY_Z9,H1: removed
+0	12:45:39.071	Expert New\updatecurrencies DXY_Z9,H1: loaded successfully
+3	12:45:39.112	updatecurrencies DXY_Z9,H1: cannot refresh history [4073]
+0	12:45:39.113	updatecurrencies DXY_Z9,H1: initialized
+0	12:45:58.529	updatecurrencies DXY_Z9,H1: uninit reason 3
+0	12:45:58.544	Tick-Value ENV-check DXY_Z9,H1: uninit reason 3
+0	12:45:58.544	Tick-Value ENV-check AUDJPY,H1: initialized
+0	12:45:58.734	updatecurrencies AUDJPY,H1: initialized
+0	12:46:02.091	updatecurrencies AUDJPY,H1: uninit reason 2
+0	12:46:02.097	Expert updatecurrencies AUDJPY,H1: removed
+0	12:46:02.126	Expert New\updatecurrencies AUDJPY,H1: loaded successfully
+0	12:46:02.281	updatecurrencies AUDJPY,H1: initialized
+0	12:48:58.050	updatecurrencies AUDJPY,H1: uninit reason 2
+0	12:48:58.050	Expert updatecurrencies AUDJPY,H1: removed
+0	12:48:58.065	Expert New\updatecurrencies AUDJPY,H1: loaded successfully
+0	12:48:58.097	updatecurrencies AUDJPY,H1: initialized
+0	12:50:01.975	updatecurrencies AUDJPY,H1: uninit reason 3
+0	12:50:01.991	Tick-Value ENV-check AUDJPY,H1: uninit reason 3
+0	12:50:01.991	Tick-Value ENV-check XAUUSD,H1: initialized
+0	12:50:01.991	updatecurrencies XAUUSD,H1: initialized
+0	12:51:50.760	updatecurrencies XAUUSD,H1: uninit reason 2
+0	12:51:50.760	Expert updatecurrencies XAUUSD,H1: removed
+0	12:51:50.794	Expert New\updatecurrencies XAUUSD,H1: loaded successfully
+0	12:51:50.859	updatecurrencies XAUUSD,H1: initialized
+0	12:52:03.971	updatecurrencies XAUUSD,H1: uninit reason 2
+0	12:52:03.986	Expert updatecurrencies XAUUSD,H1: removed
+0	12:52:04.003	Expert New\updatecurrencies XAUUSD,H1: loaded successfully
+0	12:52:04.018	updatecurrencies XAUUSD,H1: initialized
+0	12:52:45.058	updatecurrencies XAUUSD,H1: uninit reason 2
+0	12:52:45.058	Expert updatecurrencies XAUUSD,H1: removed
+0	12:52:45.073	Expert New\updatecurrencies XAUUSD,H1: loaded successfully
+0	12:52:45.105	updatecurrencies XAUUSD,H1: initialized
+0	12:53:31.772	updatecurrencies XAUUSD,H1: uninit reason 2
+0	12:53:31.788	Expert updatecurrencies XAUUSD,H1: removed
+0	12:53:31.805	Expert New\updatecurrencies XAUUSD,H1: loaded successfully
+0	12:53:31.852	updatecurrencies XAUUSD,H1: initialized
+0	12:53:49.006	updatecurrencies XAUUSD,H1: uninit reason 1
+0	12:53:49.022	Expert updatecurrencies XAUUSD,H1: removed
+0	12:53:56.685	Expert New\updatecurrencies XAUUSD,H1: loaded successfully
+0	12:53:58.071	updatecurrencies XAUUSD,H1: initialized
+0	12:54:45.319	updatecurrencies XAUUSD,H1: uninit reason 2
+0	12:54:45.330	Expert updatecurrencies XAUUSD,H1: removed
+0	12:54:45.340	Expert New\updatecurrencies XAUUSD,H1: loaded successfully
+0	12:54:45.359	updatecurrencies XAUUSD,H1: initialized
+0	12:55:11.167	updatecurrencies XAUUSD,H1: uninit reason 3
+0	12:55:11.183	Tick-Value ENV-check XAUUSD,H1: uninit reason 3
+0	12:55:11.183	Tick-Value ENV-check USDHUF,H1: initialized
+0	12:55:12.187	updatecurrencies USDHUF,H1: initialized
+0	14:08:16.608	updatetrade EURGBP,M15: uninit reason 2
+0	14:08:16.612	Expert updatetrade EURGBP,M15: removed
+0	14:08:16.632	Expert New\updatetrade EURGBP,M15: loaded successfully
+0	14:08:16.680	updatetrade EURGBP,M15: initialized
+0	14:14:07.701	updatecurrencies USDHUF,H1: uninit reason 2
+0	14:14:07.701	Expert updatecurrencies USDHUF,H1: removed
+0	14:14:07.717	Expert New\updatecurrencies USDHUF,H1: loaded successfully
+0	14:14:07.764	updatecurrencies USDHUF,H1: initialized
+0	14:15:05.987	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	14:16:25.828	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=33.0; tp=99.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/48Cb2vMo/; 
+0	14:16:27.367	!TradeExecutor_v1 EURGBP,M15: initialized
+2	14:16:27.800	!TradeExecutor_v1 EURGBP,M15: open #40650407 buy 0.03 EURGBP at 0.84552 ok
+0	14:16:27.800	!TradeExecutor_v1 EURGBP,M15: Error = no error
+2	14:16:28.483	!TradeExecutor_v1 EURGBP,M15: modify #40650407 buy 0.03 EURGBP at 0.84552 sl: 0.84222 tp: 0.85542 ok
+0	14:17:06.368	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	14:17:06.376	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	14:17:12.671	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	14:17:41.707	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=2; Set_SL=1; sl=33.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/48Cb2vMo/; 
+0	14:17:44.254	!TradeExecutor_v1 EURGBP,M15: initialized
+3	14:17:44.254	!TradeExecutor_v1 EURGBP,M15: invalid lots amount for OrderSend function
+0	14:17:44.254	!TradeExecutor_v1 EURGBP,M15: Error = invalid function parameter value
+0	14:17:44.254	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	14:17:44.261	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	14:17:51.713	Script !TradeExecutor_v1 EURGBP,M15: loaded successfully
+0	14:18:18.296	!TradeExecutor_v1 EURGBP,M15 inputs: orderType=1; Account=11.11; Percentage_Risk=100.0; totalLot=0.0; print_lot=1; numOfOrders=1; comment=; PendingOrderPrice=0.0; Sl_Tp_Type=1; Set_SL=1; sl=22.0; tp=55.0; execute_trade=1; send_signal=1; consider=Hey!!! I am considering this setup --- ; ratio=3.0; link=https://www.tradingview.com/x/48Cb2vMo/; 
+0	14:18:19.604	!TradeExecutor_v1 EURGBP,M15: initialized
+2	14:18:20.290	!TradeExecutor_v1 EURGBP,M15: open #40650549 buy 0.04 EURGBP at 0.84548 ok
+0	14:18:20.290	!TradeExecutor_v1 EURGBP,M15: Error = no error
+2	14:18:20.681	!TradeExecutor_v1 EURGBP,M15: modify #40650549 buy 0.04 EURGBP at 0.84548 sl: 0.84328 tp: 0.85098 ok
+0	14:18:23.570	!TradeExecutor_v1 EURGBP,M15: uninit reason 0
+0	14:18:23.570	Script !TradeExecutor_v1 EURGBP,M15: removed
+0	16:03:06.948	updatetrade EURGBP,M15: uninit reason 3
+0	16:03:06.963	Tick-Value ENV-check EURGBP,M15: uninit reason 3
+0	16:03:06.974	Tick-Value ENV-check EURUSD,M15: initialized
+0	16:03:06.974	updatetrade EURUSD,M15: initialized
