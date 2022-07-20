@@ -8,10 +8,11 @@
 
 #property indicator_chart_window
 
-string   Text="";
+string Text="";
+double Poin;
 
 
-int index[] = {15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 310};
+int index[] = {15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 310, 335, 350};
 
 //+------------------------------------------------------------------+
 //| Custom indicator deinitialization function                       |
@@ -27,6 +28,17 @@ int deinit()
 //| Custom indicator iteration function                              |
 //+------------------------------------------------------------------+
 int start() {
+    if (Point == 0.00001) Poin = 0.0001;
+    else {
+      if (Point == 0.001) Poin = 0.01;
+      else {
+         if (Point == 0.01) Poin = 0.1;
+         else {
+            if (Point == 0.1) Poin = 1;
+            else Poin = 0;
+         }
+      }
+   }
 
     string D1PREV="D1 PREV : "+ check_prev_candle(Symbol(), 1440, 1) +"  ";;
     ObjectCreate("D1PREV", OBJ_LABEL, 0, 0, 0);
@@ -170,6 +182,22 @@ int start() {
     ObjectSet("AVERAGE", OBJPROP_CORNER, 1);
     ObjectSet("AVERAGE", OBJPROP_XDISTANCE, 1);
     ObjectSet("AVERAGE", OBJPROP_YDISTANCE, index[19]);
+
+    double leon = candlestick(Symbol(), 60, 1);
+    string AVERAGE2="console : "+ DoubleToStr(leon, 4) +"  ";;
+    ObjectCreate("AVERAGE2", OBJ_LABEL, 0, 0, 0);
+    ObjectSetText("AVERAGE2",AVERAGE2, 8, "Tahoma", White); //
+    ObjectSet("AVERAGE2", OBJPROP_CORNER, 1);
+    ObjectSet("AVERAGE2", OBJPROP_XDISTANCE, 1);
+    ObjectSet("AVERAGE2", OBJPROP_YDISTANCE, index[20]);
+
+    string consoleString_ = analyzePrevCandles(Symbol(), 8, 60);
+    string consoleString="H1 - 8hrs : " + consoleString_ +"  ";;
+    ObjectCreate("consoleString", OBJ_LABEL, 0, 0, 0);
+    ObjectSetText("consoleString",consoleString, 8, "Black", White); //
+    ObjectSet("consoleString", OBJPROP_CORNER, 1);
+    ObjectSet("consoleString", OBJPROP_XDISTANCE, 1);
+    ObjectSet("consoleString", OBJPROP_YDISTANCE, index[21]);
 return 0;
 }
 
@@ -296,4 +324,40 @@ double close(string currency, int timef, int shift)
 {
    double val=iClose(currency,timef,shift);
    return val;
+}
+
+double candlestick(string currency, int timef, int shift) {
+  double openPrice = iOpen(currency,timef,shift);
+  double closePrice =  iClose(currency,timef,shift);
+  double highPrice =  iHigh(currency,timef,shift);
+  double lowPrice =  iLow(currency,timef,shift);
+
+  return priceDifferencePips(openPrice, closePrice);
+}
+
+double priceDifferencePips(double price1, double price2) {
+  double difference = price1 - price2;
+  difference = MathAbs(difference);
+  double pips = difference/Poin;
+  return pips;
+}
+
+string analyzePrevCandles(string currency, int candles, int timef) {
+  int buys = 0;
+  int sells = 0;
+  double pipsUp = 0;
+  double pipsDown = 0;
+
+  for (int i=1 ; i <= candles ; i++) {
+    double candleBodyPips = priceDifferencePips(iOpen(currency,timef,i), iClose(currency,timef,i));
+    if (check_prev_candle(currency, timef, i) == "sell") {
+      sells++;
+      pipsDown += candleBodyPips;
+    }
+    if (check_prev_candle(currency, timef, i) == "buy") {
+      buys++;
+      pipsUp += candleBodyPips;
+    }
+  }
+  return StringConcatenate("buys = " + buys + "| sells = " + sells + "| pipsUp = " + pipsUp + "| pipsDown = " + pipsDown + "    ");
 }

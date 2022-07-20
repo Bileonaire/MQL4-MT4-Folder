@@ -23,7 +23,7 @@ enum e_orderType{
 
 input e_orderType  orderType = Buy;
 
-extern double Account = 20.00;
+extern double Account = 355.00;
 extern double Percentage_Risk = 100.0;
 
 extern double  totalLot = 0.0;

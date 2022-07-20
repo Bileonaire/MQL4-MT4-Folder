@@ -72,13 +72,13 @@ enum e_send_signal{
  Nah=0,
 };
 
-input e_send_signal send_signal = Yeah;
+input e_send_signal send_signal = Nah;
 
 extern string consider= "Hey!!! I am considering this setup --- ";
 extern double ratio = 3.0;
 extern string link = "";
 
-extern string url = "https://8188-41-212-47-64.ngrok.io";
+extern string url = "http://127.0.0.1";
 
 string chatId = "-1001278337047";
 string chatId2 = "-1001237306634";  // bileonaire_fx_community
@@ -171,7 +171,8 @@ int start() {
       ModifyPrice();
    }
    // SendSignal();
-   if (success) SendJournal();
+   // if (success) SendJournal();
+   SendJournal();
    return(0);
 }
 
@@ -496,60 +497,61 @@ int SendJournal() {
 
    double total = ((D1 + H4 + H1 + M15) / 4 + accumulate) / 2;
    double avg = NormalizeDouble(total , 2);
-   percent = NormalizeDouble(accumulate,2);
 
    string data = StringConcatenate(
       "&accumulate=" + accumulate +"&"+
 
-      "D1CLOSE=" + PriceAboveBelowClose(instrument, 1440, 1) +"&"+
-      "H4CLOSE=" + PriceAboveBelowClose(instrument, 240, 1) +"&"+
-      "H1CLOSE=" + PriceAboveBelowClose(instrument, 60, 1) +"&"+
-      "M15CLOSE=" + PriceAboveBelowClose(instrument, 15, 1) +"&"+
+      "d1close=" + PriceAboveBelowClose(instrument, 1440, 1) +"&"+
+      "h4close=" + PriceAboveBelowClose(instrument, 240, 1) +"&"+
+      "h1close=" + PriceAboveBelowClose(instrument, 60, 1) +"&"+
+      "m15close=" + PriceAboveBelowClose(instrument, 15, 1) +"&"+
 
-      "D1PREV=" + check_prev_candle(instrument, 1440, 1) +"&"+
-      "H4PREV=" + check_prev_candle(instrument, 240, 1) +"&"+
-      "H1PREV=" +  check_prev_candle(instrument, 60, 1) +"&"+
-      "M15PREV=" + check_prev_candle(instrument, 15, 1) +"&"+
+      "d1prev=" + check_prev_candle(instrument, 1440, 1) +"&"+
+      "h4prev=" + check_prev_candle(instrument, 240, 1) +"&"+
+      "h1prev=" +  check_prev_candle(instrument, 60, 1) +"&"+
+      "m15prev=" + check_prev_candle(instrument, 15, 1) +"&"+
 
-      "D1200EMA=" + closeAboveBelowEMA(instrument, 1440, 200) +"&"+
-      "H4200EMA=" + closeAboveBelowEMA(instrument, 240, 200) +"&"+
-      "H1200EMA=" + closeAboveBelowEMA(instrument, 60, 200) +"&"+
-      "M15200EMA=" + closeAboveBelowEMA(instrument, 15, 200) +"&"+
+      "d1200ema=" + closeAboveBelowEMA(instrument, 1440, 200) +"&"+
+      "h4200ema=" + closeAboveBelowEMA(instrument, 240, 200) +"&"+
+      "h1200ema=" + closeAboveBelowEMA(instrument, 60, 200) +"&"+
+      "m15200ema=" + closeAboveBelowEMA(instrument, 15, 200) +"&"+
 
-      "D150SMA=" + closeAboveBelowSMA(instrument, 1440, 50) +"&"+
-      "H450SMA=" + closeAboveBelowSMA(instrument, 240, 50) +"&"+
-      "H150SMA=" + closeAboveBelowSMA(instrument, 60, 50) +"&"+
-      "M1550SMA=" + closeAboveBelowSMA(instrument, 15, 50) +"&"+
+      "d150sma=" + closeAboveBelowSMA(instrument, 1440, 50) +"&"+
+      "h450sma=" + closeAboveBelowSMA(instrument, 240, 50) +"&"+
+      "h150sma=" + closeAboveBelowSMA(instrument, 60, 50) +"&"+
+      "m1550sma=" + closeAboveBelowSMA(instrument, 15, 50) +"&"+
 
-      "D18EMA=" + PriceAboveBelowEMA(instrument, 1440, 8) +"&"+
-      "H48EMA=" + PriceAboveBelowEMA(instrument, 240, 8) +"&"+
-      "H18EMA=" + PriceAboveBelowEMA(instrument, 60, 8) +"&"+
-      "M158EMA=" + PriceAboveBelowEMA(instrument, 15, 8) +"&"+
+      "d18ema=" + PriceAboveBelowEMA(instrument, 1440, 8) +"&"+
+      "h48ema=" + PriceAboveBelowEMA(instrument, 240, 8) +"&"+
+      "h18ema=" + PriceAboveBelowEMA(instrument, 60, 8) +"&"+
+      "m158ema=" + PriceAboveBelowEMA(instrument, 15, 8) +"&"+
 
-      "D120EMA=" +closeAboveBelowEMA(instrument, 1440, 20) +"&"+
-      "H420EMA=" +closeAboveBelowEMA(instrument, 240, 20) +"&"+
-      "H120EMA=" +closeAboveBelowEMA(instrument, 60, 20) +"&"+
-      "M1520SMA=" + closeAboveBelowSMA(instrument, 15, 20) +"&"+
+      "d120ema=" +closeAboveBelowEMA(instrument, 1440, 20) +"&"+
+      "h420ema=" +closeAboveBelowEMA(instrument, 240, 20) +"&"+
+      "h120ema=" +closeAboveBelowEMA(instrument, 60, 20) +"&"+
+      "m1520sma=" + closeAboveBelowSMA(instrument, 15, 20) +"&"+
 
-      "D1ENV=" + environment(instrument,1440) +"&"+
-      "H4ENV=" + environment(instrument,240) +"&"+
-      "H1ENV=" + environment(instrument,60) +"&"+
-      "M15ENV=" + environment(instrument,15) +"&"+
-      "image1=" + link +"&"+
-      "ticketNum=" + ticketNum +"&"+
+      "d1env=" + environment(instrument,1440) +"&"+
+      "h4env=" + environment(instrument,240) +"&"+
+      "h1env=" + environment(instrument,60) +"&"+
+      "m15env=" + environment(instrument,15) +"&"+
+      "image_1=" + link +"&"+
+      "ticketnum=" + ticketNum +"&"+
       "commission=" + commission +"&"+
-      "lotSize=" + NormalizeDouble(lotSize, 2)  +"&"+
+      "lotsize=" + NormalizeDouble(lotSize, 2)  +"&"+
 
-      "TrendD1=" +  D1 +"&"+
-      "TrendH4="  + H4 +"&"+
-      "TrendH1="  + H1 +"&"+
-      "TrendM15=" + M15 +"&"+
-      "AvgTrend=" + avg
+      "trendd1=" +  D1 +"&"+
+      "trendh4="  + H4 +"&"+
+      "trendh1="  + H1 +"&"+
+      "trendm15=" + M15 +"&"+
+      "avgtrend=" + avg +"&"+
+      "accountNo=" + AccountNumber()
    );
 
-   string journalAPI=StringConcatenate(url + "/api/newtrade?traderId=1&currency=" + instrument + "&direction="+EnumToString(orderType)+"&slPrice=" + stoploss_Price + "&tpPrice=" + takeprofit_Price + "&slPips=" + sl + "&tpPips=" + tp + "&RR=" + NormalizeDouble((tp/sl),2) + data);
+   string journalAPI=StringConcatenate(url + "/api/v1/trades/users/e31688c0-958a-4366-93ee-94e042221a6b?currency=" + instrument + "&direction="+EnumToString(orderType)+"&slprice=" + stoploss_Price + "&tpprice=" + takeprofit_Price + "&slpips=" + sl + "&tppips=" + tp + "&rr=" + NormalizeDouble((tp/sl),2) + data);
    ResetLastError();
-   int journal=WebRequest("GET",journalAPI,cookie,NULL,timeout,post,0,result,headers);
+   MessageBox(journalAPI);
+   int journal=WebRequest("POST",journalAPI,cookie,NULL,timeout,post,0,result,headers);
    if (journal != 201) MessageBox(journal);
 return(0);
 }
@@ -674,6 +676,7 @@ string environment (string currency, int timef)
   if (MacdCurrent > 0 && ten_ema > twenty_ema) buy_or_sell = "buy";
 // Sell env
   if (MacdCurrent < 0 && ten_ema < twenty_ema) buy_or_sell = "sell";
+  if (buy_or_sell == " ") return NULL;
   return buy_or_sell;
 }
 

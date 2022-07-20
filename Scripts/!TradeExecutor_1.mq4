@@ -23,7 +23,7 @@ enum e_orderType{
 
 input e_orderType  orderType = Buy;
 
-extern double Account = 30;
+extern double Account = 160;
 extern double Percentage_Risk = 100;
 
 double  totalLot = 0.0;
@@ -47,7 +47,7 @@ enum e_Sl_Tp_Type{
  Price=2
 };
 
-input e_Sl_Tp_Type  Sl_Tp_Type = Pips;
+input e_Sl_Tp_Type  Sl_Tp_Type = Price;
 
 enum e_Set_SL{
  Yes=1,
